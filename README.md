@@ -29,8 +29,8 @@ Open `index.html`, or the live link above, and click **Open the clickable protot
 HTML and CSS (static prototype).
 
 ## Team
-- **Mohammed Baqer** – Lead · Product and business development
-- **Zainab Taher** – Tech
+- **Mohammed Baqer** – Lead Product and business development
+- **Zainab Taher** – Accounting - Tech
 - **Hala Benlaba** – Marketing and research
 
 ## Notes
