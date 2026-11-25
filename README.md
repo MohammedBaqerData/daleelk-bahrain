@@ -7,6 +7,7 @@
 ## Documents
 - 📊 [Pitch deck (PDF)](docs/Daleelk_Bahrain_Pitch_Deck.pdf) · [PowerPoint](docs/Daleelk_Bahrain_Pitch_Deck.pptx)
 - 📄 [Project report (PDF)](docs/Daleelk_Bahrain_Project_Report.pdf)
+- 🌍 [GCC pitch deck (PDF)](docs/Daleelk_GCC_Pitch_Deck.pdf) · [GCC prototype](https://mohammedbaqerdata.github.io/daleelk-bahrain/gcc/interests.html)
 
 ## What the app does
 - **Resident or visitor:** different suggestions and offers for each
