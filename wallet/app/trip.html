@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your GCC Wallet · Trip</title>
+<link rel="icon" href="../assets/logo.png">
+<link rel="stylesheet" href="../assets/site.css"><style>
+@font-face{font-family:SG;font-weight:500;src:url(../assets/space-grotesk-latin-500-normal.woff2)}
+@font-face{font-family:SG;font-weight:700;src:url(../assets/space-grotesk-latin-700-normal.woff2)}
+@font-face{font-family:IN;font-weight:400;src:url(../assets/inter-latin-400-normal.woff2)}
+@font-face{font-family:IN;font-weight:500;src:url(../assets/inter-latin-500-normal.woff2)}
+@font-face{font-family:IN;font-weight:600;src:url(../assets/inter-latin-600-normal.woff2)}
+@font-face{font-family:IN;font-weight:700;src:url(../assets/inter-latin-700-normal.woff2)}
+*{box-sizing:border-box;margin:0;padding:0}
+.ph{font-family:IN,sans-serif;color:#16181D}
+.ph{width:390px;height:844px;background:#F4F1EA;position:relative;overflow:hidden;display:flex;flex-direction:column}
+.in{padding:54px 20px 100px;display:flex;flex-direction:column;gap:16px;flex:1}
+.h{font-family:SG;font-weight:700}
+.muted{color:#6B6860}
+.top{display:flex;justify-content:space-between;align-items:center}
+.logo{display:flex;align-items:center;gap:8px;font-family:SG;font-weight:700;font-size:16px}
+.mark{width:34px;height:34px;border-radius:10px;background:#16181D;display:flex;align-items:center;justify-content:center}
+.mark i{width:16px;height:16px;border-radius:50%;background:#FF6A2B;box-shadow:inset 0 0 0 3px #FFB08A}
+.card{background:#fff;border:1px solid #E3DDD0;border-radius:18px;padding:14px}
+.ink{background:#16181D;color:#F4F1EA;border:none}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:7px 12px;border-radius:999px;background:#fff;border:1px solid #E3DDD0;font-size:13px;font-weight:600}
+.chip.on{background:#16181D;color:#fff;border-color:#16181D}
+.cur{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.cur>div{background:#fff;border:1px solid #E3DDD0;border-radius:14px;padding:10px}
+.code{display:inline-flex;width:30px;height:30px;border-radius:50%;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#fff;margin-bottom:6px}
+.acts{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;text-align:center;font-size:12px;font-weight:600}
+.acts div div{width:52px;height:52px;margin:0 auto 6px;border-radius:16px;background:#fff;border:1px solid #E3DDD0;display:flex;align-items:center;justify-content:center}
+.nav{position:absolute;bottom:0;left:0;right:0;height:84px;background:#fff;border-top:1px solid #E3DDD0;display:flex;justify-content:space-around;align-items:flex-start;padding-top:10px;font-size:11px;color:#6B6860}
+.nav div{display:flex;flex-direction:column;align-items:center;gap:4px}
+.nav .on{color:#C24A16;font-weight:600}
+.pay{width:56px;height:56px;border-radius:50%;background:#FF6A2B;margin-top:-26px;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 16px rgba(255,106,43,.4)}
+.tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#C24A16}
+.pill{display:inline-block;padding:3px 9px;border-radius:999px;font-size:11px;font-weight:700}
+.g{background:#D6ECE8;color:#1F6F66}.o{background:#FFE3D4;color:#A63A10}
+.offer{display:flex;gap:12px;align-items:center}
+.offer img{width:74px;height:74px;border-radius:14px;object-fit:cover;flex:none}
+.pbar{height:8px;border-radius:99px;background:#E9E3D5;overflow:hidden}.pbar i{display:block;height:100%;background:#FF6A2B}
+.row{display:flex;justify-content:space-between;align-items:center}
+.btn{background:#16181D;color:#fff;border-radius:16px;padding:16px;text-align:center;font-weight:700;font-size:15px}
+.btn.o2{background:#FF6A2B}
+svg{display:block}
+.ph a{color:inherit;text-decoration:none}.ph .btn,.ph .chip,.ph .card.offer,.acts>div,.nav>div{cursor:pointer}.phone{box-sizing:content-box}</style></head>
+<body><header class="bar"><a class="home" href="../index.html">Your GCC Wallet</a><nav><a href="welcome.html" class="">1. Welcome</a> <a href="home.html" class="">2. Wallet</a> <a href="pay.html" class="">3. Pay</a> <a href="paid.html" class="">4. Paid</a> <a href="offers.html" class="">5. Offers</a> <a href="points.html" class="">6. Points</a> <a href="trip.html" class="on">7. Trip</a> <a href="partner.html" class="">8. Partner view</a></nav></header>
+<main class="stage"><div class="phone">
+<div class="ph" id="trip"><div class="in" style="gap:14px">
+<div><span class="tag">Trip summary</span><div class="h" style="font-size:22px">Riyadh weekend</div><div class="muted" style="font-size:13px">28–30 Nov · Saudi Arabia</div></div>
+<div class="card ink"><div style="font-size:13px;color:#B8B3A8">Total spent</div><div class="h" style="font-size:32px">SAR 1,240</div><div style="font-size:13px;color:#B8B3A8">≈ BHD 124.30 · budget BHD 150</div>
+<div class="pbar" style="margin-top:10px;background:#383C45"><i style="width:83%"></i></div></div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+<div class="card"><div class="muted" style="font-size:12px">Card fees saved</div><div class="h" style="font-size:20px;color:#1F6F66">BHD 3.10</div></div>
+<div class="card"><div class="muted" style="font-size:12px">Saved with offers</div><div class="h" style="font-size:20px;color:#1F6F66">BHD 11.50</div></div>
+<div class="card"><div class="muted" style="font-size:12px">Points earned</div><div class="h" style="font-size:20px;color:#C24A16">+1,240</div></div>
+<div class="card"><div class="muted" style="font-size:12px">Offers used</div><div class="h" style="font-size:20px">4</div></div></div>
+<div class="card" style="display:flex;flex-direction:column;gap:12px"><b style="font-size:14px">Where it went</b><div><div class="row" style="font-size:13px;margin-bottom:5px"><span>Food and cafés</span><b>SAR 420</b></div><div class="pbar"><i style="width:34%"></i></div></div><div><div class="row" style="font-size:13px;margin-bottom:5px"><span>Events and tickets</span><b>SAR 380</b></div><div class="pbar"><i style="width:31%"></i></div></div><div><div class="row" style="font-size:13px;margin-bottom:5px"><span>Shopping</span><b>SAR 300</b></div><div class="pbar"><i style="width:24%"></i></div></div><div><div class="row" style="font-size:13px;margin-bottom:5px"><span>Transport</span><b>SAR 140</b></div><div class="pbar"><i style="width:11%"></i></div></div></div>
+</div><div class="nav"><div class="on"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C24A16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg><span>Home</span></div><div class=""><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6B6860" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12 12 20 4 12V4h8z"/><circle cx="8" cy="8" r="1.5"/></svg><span>Offers</span></div><div><div class="pay"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><path d="M14 14h3v3M21 14v7h-7"/></svg></div><span style="margin-top:2px">Pay</span></div><div class=""><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6B6860" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg><span>Points</span></div><div class=""><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6B6860" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg><span>Profile</span></div></div></div></div></main>
+<script>
+function go(sel,href){document.querySelectorAll('.phone '+sel).forEach(e=>e.onclick=()=>location.href=href)}
+function nav(){var h=['home.html','offers.html','pay.html','points.html','trip.html'];document.querySelectorAll('.phone .nav>div').forEach((e,i)=>e.onclick=()=>location.href=h[i])}
+nav();
+function fit(){var s=Math.min(1,(window.innerWidth-16)/410),p=document.querySelector(".phone");p.style.transform=s<1?"scale("+s+")":"";p.style.transformOrigin="top center";p.parentElement.style.height=s<1?(864*s+16)+"px":"";}window.addEventListener("resize",fit);fit();
+</script></body></html>

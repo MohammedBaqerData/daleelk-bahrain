@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your GCC Wallet · Partner view</title>
+<link rel="icon" href="../assets/logo.png">
+<link rel="stylesheet" href="../assets/site.css"><style>
+@font-face{font-family:SG;font-weight:500;src:url(../assets/space-grotesk-latin-500-normal.woff2)}
+@font-face{font-family:SG;font-weight:700;src:url(../assets/space-grotesk-latin-700-normal.woff2)}
+@font-face{font-family:IN;font-weight:400;src:url(../assets/inter-latin-400-normal.woff2)}
+@font-face{font-family:IN;font-weight:500;src:url(../assets/inter-latin-500-normal.woff2)}
+@font-face{font-family:IN;font-weight:600;src:url(../assets/inter-latin-600-normal.woff2)}
+@font-face{font-family:IN;font-weight:700;src:url(../assets/inter-latin-700-normal.woff2)}
+*{box-sizing:border-box;margin:0;padding:0}
+.ph{font-family:IN,sans-serif;color:#16181D}
+.ph{width:390px;height:844px;background:#F4F1EA;position:relative;overflow:hidden;display:flex;flex-direction:column}
+.in{padding:54px 20px 100px;display:flex;flex-direction:column;gap:16px;flex:1}
+.h{font-family:SG;font-weight:700}
+.muted{color:#6B6860}
+.top{display:flex;justify-content:space-between;align-items:center}
+.logo{display:flex;align-items:center;gap:8px;font-family:SG;font-weight:700;font-size:16px}
+.mark{width:34px;height:34px;border-radius:10px;background:#16181D;display:flex;align-items:center;justify-content:center}
+.mark i{width:16px;height:16px;border-radius:50%;background:#FF6A2B;box-shadow:inset 0 0 0 3px #FFB08A}
+.card{background:#fff;border:1px solid #E3DDD0;border-radius:18px;padding:14px}
+.ink{background:#16181D;color:#F4F1EA;border:none}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:7px 12px;border-radius:999px;background:#fff;border:1px solid #E3DDD0;font-size:13px;font-weight:600}
+.chip.on{background:#16181D;color:#fff;border-color:#16181D}
+.cur{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.cur>div{background:#fff;border:1px solid #E3DDD0;border-radius:14px;padding:10px}
+.code{display:inline-flex;width:30px;height:30px;border-radius:50%;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#fff;margin-bottom:6px}
+.acts{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;text-align:center;font-size:12px;font-weight:600}
+.acts div div{width:52px;height:52px;margin:0 auto 6px;border-radius:16px;background:#fff;border:1px solid #E3DDD0;display:flex;align-items:center;justify-content:center}
+.nav{position:absolute;bottom:0;left:0;right:0;height:84px;background:#fff;border-top:1px solid #E3DDD0;display:flex;justify-content:space-around;align-items:flex-start;padding-top:10px;font-size:11px;color:#6B6860}
+.nav div{display:flex;flex-direction:column;align-items:center;gap:4px}
+.nav .on{color:#C24A16;font-weight:600}
+.pay{width:56px;height:56px;border-radius:50%;background:#FF6A2B;margin-top:-26px;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 16px rgba(255,106,43,.4)}
+.tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#C24A16}
+.pill{display:inline-block;padding:3px 9px;border-radius:999px;font-size:11px;font-weight:700}
+.g{background:#D6ECE8;color:#1F6F66}.o{background:#FFE3D4;color:#A63A10}
+.offer{display:flex;gap:12px;align-items:center}
+.offer img{width:74px;height:74px;border-radius:14px;object-fit:cover;flex:none}
+.pbar{height:8px;border-radius:99px;background:#E9E3D5;overflow:hidden}.pbar i{display:block;height:100%;background:#FF6A2B}
+.row{display:flex;justify-content:space-between;align-items:center}
+.btn{background:#16181D;color:#fff;border-radius:16px;padding:16px;text-align:center;font-weight:700;font-size:15px}
+.btn.o2{background:#FF6A2B}
+svg{display:block}
+.ph a{color:inherit;text-decoration:none}.ph .btn,.ph .chip,.ph .card.offer,.acts>div,.nav>div{cursor:pointer}.phone{box-sizing:content-box}</style></head>
+<body><header class="bar"><a class="home" href="../index.html">Your GCC Wallet</a><nav><a href="welcome.html" class="">1. Welcome</a> <a href="home.html" class="">2. Wallet</a> <a href="pay.html" class="">3. Pay</a> <a href="paid.html" class="">4. Paid</a> <a href="offers.html" class="">5. Offers</a> <a href="points.html" class="">6. Points</a> <a href="trip.html" class="">7. Trip</a> <a href="partner.html" class="on">8. Partner view</a></nav></header>
+<main class="stage"><div class="phone">
+<div class="ph" id="partner"><div class="in" style="gap:14px;padding-bottom:30px">
+<div class="row"><div class="logo"><img src="../assets/logo.png" style="width:36px;height:36px;border-radius:10px"><span>Your <span style="color:#C24A16">GCC</span> Wallet</span></div><span class="pill g">Partner</span></div>
+<div><span class="tag">Campaign</span><div class="h" style="font-size:22px">Muharraq Nights · GCC visitors</div><div class="muted" style="font-size:13px">Culture and heritage partner · 1–31 Dec</div></div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+<div class="card"><div class="muted" style="font-size:12px">Visitors reached</div><div class="h" style="font-size:24px">3,400</div></div>
+<div class="card"><div class="muted" style="font-size:12px">Offers used</div><div class="h" style="font-size:24px">612</div></div>
+<div class="card"><div class="muted" style="font-size:12px">From Saudi Arabia</div><div class="h" style="font-size:24px">58%</div></div>
+<div class="card"><div class="muted" style="font-size:12px">Spent nearby</div><div class="h" style="font-size:24px">BHD 9.4k</div></div></div>
+<div class="card" style="display:flex;flex-direction:column;gap:12px"><b style="font-size:14px">Busiest nights</b><div><div class="row" style="font-size:13px;margin-bottom:5px"><span>Thursday</span><b></b></div><div class="pbar"><i style="width:92%"></i></div></div><div><div class="row" style="font-size:13px;margin-bottom:5px"><span>Friday</span><b></b></div><div class="pbar"><i style="width:100%"></i></div></div><div><div class="row" style="font-size:13px;margin-bottom:5px"><span>Saturday</span><b></b></div><div class="pbar"><i style="width:71%"></i></div></div></div>
+<div class="card" style="background:#FFE3D4;border:none;font-size:13px"><b>Suggestion:</b> boost points on Sunday to fill the quietest night.</div>
+<div class="btn">Create new offer</div>
+<div class="muted" style="font-size:11px;text-align:center">Anonymous totals only. No personal data shared.</div>
+</div></div></div></main>
+<script>
+function go(sel,href){document.querySelectorAll('.phone '+sel).forEach(e=>e.onclick=()=>location.href=href)}
+function nav(){var h=['home.html','offers.html','pay.html','points.html','trip.html'];document.querySelectorAll('.phone .nav>div').forEach((e,i)=>e.onclick=()=>location.href=h[i])}
+go('.btn','offers.html');
+function fit(){var s=Math.min(1,(window.innerWidth-16)/410),p=document.querySelector(".phone");p.style.transform=s<1?"scale("+s+")":"";p.style.transformOrigin="top center";p.parentElement.style.height=s<1?(864*s+16)+"px":"";}window.addEventListener("resize",fit);fit();
+</script></body></html>
